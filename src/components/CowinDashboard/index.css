@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  min-height: 100vh;
+}
+.covid-container {
+  width: 90%;
+  margin-top: 20px;
+}
+.logo-contianer {
+  display: flex;
+}
+.logo-image {
+  width: 50px;
+}
+.logo-name {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.failure-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.failure-image {
+  width: 500px;
+}
+.failure-content {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
